@@ -1,0 +1,44 @@
+html,
+body {
+    font-weight: 500;
+    line-height: 1.2;
+    font-style: normal;
+    font-size: 24px;
+    color: #0c3e2e;
+    height: 100%;
+    // font-family: "Kaisei Decol", serif;
+    // font-family: "Manrope", sans-serif;
+    // font-family: "Balsamiq Sans", sans-serif;
+    font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.title {
+    @extend %title;
+}
+.text{
+    @extend %text__subtitle;
+}
+.none{
+    display: none;
+}
+.bottom{
+    margin-bottom: 150px;
+}
